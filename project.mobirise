@@ -23,7 +23,10 @@
     },
     "versionFirst": "3.12.1",
     "uniqCompNum": 8,
-    "versionPublish": "3.12.1"
+    "versionPublish": "3.12.1",
+    "favicon": "@PROJECT_PATH@/assets/images/297-512-128x128.png",
+    "noImageResize": "",
+    "google-analytics": ""
   },
   "pages": {
     "index.html": {
