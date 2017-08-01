@@ -44,6 +44,14 @@
             "Theme"
           ],
           "_name": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#41a85f"
+            },
+            ".mbr-section-lead": {
+              "color": "#41a85f"
+            }
+          },
           "_anchor": "header1-7",
           "_params": {
             "parallax": true,
@@ -66,15 +74,7 @@
           },
           "title": "Noly Creations",
           "text": "Everything You Love in a Cup",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#41a85f"
-            },
-            ".mbr-section-lead": {
-              "color": "#41a85f"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
         },
         {
           "_styles": {
@@ -104,19 +104,19 @@
             "Theme"
           ],
           "_name": "content1",
+          "_styles": {
+            "P": {
+              "text-align": "center",
+              "color": "#475577"
+            }
+          },
           "_anchor": "content1-6",
           "_params": {
             "paddingTop": 1,
             "paddingBottom": "3",
             "bgColor": "#fff"
           },
-          "text": "<p>Smoothies&nbsp;</p><p>Artisan Frappes</p><p>Snow cone/Piragua</p><p>Espresso coffee</p><p>Capuccino</p>",
-          "_styles": {
-            "P": {
-              "text-align": "center",
-              "color": "#475577"
-            }
-          }
+          "text": "<p>Smoothies&nbsp;</p><p>Artisan Frappes</p><p>Snow Cone ( Piragua )</p><p>Espresso Coffee</p><p>Capuccino</p><p>Iced Coffee</p>"
         },
         {
           "_inherit": "social-buttons2",
@@ -150,6 +150,14 @@
             "Theme"
           ],
           "_name": "contacts2",
+          "_styles": {
+            "P": {
+              "color": "#ffffff"
+            },
+            "STRONG": {
+              "color": "#efefef"
+            }
+          },
           "_anchor": "contacts2-3",
           "_params": {
             "paddingTop": 3,
@@ -170,15 +178,7 @@
             }
           },
           "text1": "<strong>Address</strong><br>156 E. Interlake Blvd <br>Lake Placid, Florida 33852<br><br><br>\n<strong>Contacts</strong><br>\nPhone: (863) 531-6482<br><br>",
-          "text2": "<p class=\"mbr-contacts__text\"><strong>Now Open</strong></p><span style=\"font-size: 14px; line-height: 25px;\">Dear customers at the moment we will be opening at 1pm untill 7pm. Fridays and Saturdays we will be here untill 8pm. Sunday 1 pm untill 6 pm.</span><ul><br></ul>",
-          "_styles": {
-            "P": {
-              "color": "#ffffff"
-            },
-            "STRONG": {
-              "color": "#efefef"
-            }
-          }
+          "text2": "<p class=\"mbr-contacts__text\"><strong>Now Open</strong></p><span style=\"font-size: 14px; line-height: 25px;\">Dear customers at the moment we will be opening at 1pm untill 7pm. Fridays and Saturdays we will be here untill 8pm. Sunday 1 pm untill 6 pm.</span><ul><br></ul>"
         }
       ]
     }
