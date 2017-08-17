@@ -1,6 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(https://fonts.googleapis.com/css?family=Lora:400,700);
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+@import url(../../../https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(../../../https://fonts.googleapis.com/css?family=Lora:400,700);
+@import url(../../../https://fonts.googleapis.com/css?family=Raleway:400,300,700);
 
 
 
@@ -427,6 +427,12 @@ h6,
 #content1-6 P {
   text-align: center;
   color: #475577;
+}
+#testimonials3-8 .mbr-section-title {
+  color: #efefef;
+}
+#testimonials3-8 .mbr-author-name {
+  color: #ccc;
 }
 #social-buttons4-2 .mbr-section-title,
 #social-buttons4-2 .btn-social {

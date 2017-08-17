@@ -22,11 +22,13 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 8,
-    "versionPublish": "3.12.1",
+    "uniqCompNum": 9,
+    "versionPublish": "4.1.6",
     "favicon": "@PROJECT_PATH@/assets/images/297-512-128x128.png",
     "noImageResize": "",
-    "google-analytics": ""
+    "google-analytics": "",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -54,23 +56,23 @@
           },
           "_anchor": "header1-7",
           "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
             "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/untitled-2000x1500.jpg",
-            "bgColor": "#a07e49",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#a07e49",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#000",
-            "contentAlign": "center",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false
+            "overlayOpacity": 0.5
           },
           "title": "Noly Creations",
           "text": "Everything You Love in a Cup",
@@ -91,10 +93,10 @@
           "_name": "header3",
           "_anchor": "header3-5",
           "_params": {
+            "showMeta": true,
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#fff",
-            "showMeta": true
+            "bgColor": "#fff"
           },
           "title": "Menu",
           "meta": ""
@@ -119,6 +121,86 @@
           "text": "<p>Smoothies&nbsp;</p><p>Artisan Frappes</p><p>Snow Cone ( Piragua )</p><p>Espresso Coffee</p><p>Capuccino</p><p>Iced Coffee</p>"
         },
         {
+          "_inherit": "testimonials1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#efefef"
+            },
+            ".mbr-author-name": {
+              "color": "#ccc"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showSubtitle": false,
+            "showImages": false,
+            "showName": true,
+            "showBio": false,
+            "count": "3",
+            "paddingTop": "2",
+            "paddingBottom": "3",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-720x1080.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "title": "WHAT OUR FANTASTIC CUSTOMERS SAY",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
+          "testimonial": [
+            {
+              "authorName": "Arturo Soto Gutiérrez",
+              "authorBio": "User",
+              "text": "<p>“Delicious, nicely presented, great service and family oriented. Got a client on me! ”</p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face3.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              }
+            },
+            {
+              "authorName": "Juan Hernandez",
+              "authorBio": "User",
+              "text": "<p>“Visited today and we had the frappe and smoothies. Fantastic! Great stuff and friendly staff. Our new favorite place in Lake Placid!”</p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face1.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              }
+            },
+            {
+              "authorName": "Briana Behrman",
+              "authorBio": "User",
+              "text": "<p>“This place is amazing and there ice creams are so good!”</p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face2.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              }
+            }
+          ],
+          "_name": "testimonials3",
+          "_anchor": "testimonials3-8"
+        },
+        {
           "_inherit": "social-buttons2",
           "_styles": {
             ".mbr-section-title, .btn-social": {
@@ -132,15 +214,15 @@
           "_anchor": "social-buttons4-2",
           "_params": {
             "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingBottom": "2",
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
-            "bgColor": "#2969b0",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#2969b0",
             "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222"
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "text": "FOLLOW US",
           "icons": " <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/Noly-Creations-429239457441197/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/nolycreations\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-instagram\"></i></a>      "
@@ -163,13 +245,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#2969b0",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#2969b0",
             "overlay": true,
-            "overlayOpacity": 0.8,
             "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8,
             "googleMap": {
               "address": "156 E. Interlake Blvd \nLake Placid, Florida 33852",
               "placeId": "ChIJCyttVWhd3IgRC5q1iQ3h9yA",
@@ -177,8 +259,8 @@
               "stateDetails": ""
             }
           },
-          "text1": "<strong>Address</strong><br>156 E. Interlake Blvd <br>Lake Placid, Florida 33852<br><br><br>\n<strong>Contacts</strong><br>\nPhone: (863) 531-6482<br><br>",
-          "text2": "<p class=\"mbr-contacts__text\"><strong>Now Open</strong></p><span style=\"font-size: 14px; line-height: 25px;\">Dear customers at the moment we will be opening at 1pm untill 7pm. Fridays and Saturdays we will be here untill 8pm. Sunday 1 pm untill 6 pm.</span><ul><br></ul>"
+          "text1": "<strong>Address</strong><br>156 E. Interlake Blvd <br>Lake Placid, Florida 33852<br><br><br>\n<strong>Contact</strong><br>\nPhone: (863) 531-6482<br><br>",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>Now Open</strong></p><span style=\"font-size: 14px;\">Monday to Thursday 1:00 to 7:00 PM</span><div><span style=\"font-size: 14px;\">Friday 12:00 PM to 8:00 PM</span></div><div><span style=\"font-size: 14px;\">Saturday 10:00 AM to 8:00 PM</span></div><div><span style=\"font-size: 14px;\">Sunday 12:30 PM to 6:00 PM<br></span><ul><br></ul></div>"
         }
       ]
     }
